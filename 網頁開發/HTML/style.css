@@ -1,0 +1,51 @@
+/* element selector 
+h2 {
+  color: rgb(89, 158, 219);
+}*/
+/* id selector 
+#first-paragraph {
+  color: blueviolet;
+}*/
+/*class selector
+.blue-text {
+  color: blue;
+}*/
+/*element and class selector
+a.large-text {
+  font-size: 32px;
+}*/
+
+/*input[type="text"] {
+  color: red;
+}
+input[type="text"]:hover {
+  color: rgb(87, 34, 95);
+}*/
+/*反白顏色*/
+*::selection {
+  background-color: bisque;
+}
+h1 {
+  font-size: 32px;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+table,
+tr,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+tr:hover {
+  background-color: bisque;
+}
+td,
+th {
+  padding: 0.25 0.5rem;
+}
+img:hover {
+  cursor: pointer;
+}

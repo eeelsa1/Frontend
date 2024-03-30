@@ -1,0 +1,41 @@
+div.container {
+  width: 500px;
+  height: 2000px;
+  background-color: black;
+  position: relative;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+}
+
+.box1 {
+  background-color: aqua;
+  animation-name: cc;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  position: relative;
+}
+
+.box2 {
+  background-color: rgb(94, 227, 127);
+  position: sticky;
+  top: 30px;
+}
+
+.box3 {
+  background-color: rgb(219, 83, 46);
+}
+@keyframes cc {
+  from {
+    background-color: aqua;
+    top: 0px;
+    left: 0px;
+  }
+  to {
+    background-color: blanchedalmond;
+    top: 400px;
+    right: 0px;
+  }
+}
